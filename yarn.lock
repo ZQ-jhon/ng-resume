@@ -1613,12 +1613,7 @@ color-name@~1.1.4:
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-colors@1.1.2:
-  version "1.1.2"
-  resolved "http://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz"
-  integrity sha1-FopHAXVran9RoSzgyXv6KMCE7WM=
-
-colors@^1.4.0:
+colors@1.4.0, colors@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
@@ -2143,6 +2138,7 @@ detect-indent@^4.0.0:
 detect-libc@^1.0.2:
   version "1.0.3"
   resolved "http://registry.npm.taobao.org/detect-libc/download/detect-libc-1.0.3.tgz"
+  integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
 detect-node@^2.0.3:
   version "2.0.4"
@@ -3444,6 +3440,7 @@ inherits@^2.0.4:
 ini@1.3.5, ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "http://registry.npm.taobao.org/ini/download/ini-1.3.5.tgz"
+  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
 inquirer@6.2.0:
   version "6.2.0"
@@ -3920,12 +3917,12 @@ jasmine-core@~2.99.1:
   resolved "http://registry.npm.taobao.org/jasmine-core/download/jasmine-core-2.99.1.tgz"
   integrity sha1-5kAN8ea1bhMLYcS80JPap/boyhU=
 
-jasmine-spec-reporter@~4.2.1:
-  version "4.2.1"
-  resolved "http://registry.npm.taobao.org/jasmine-spec-reporter/download/jasmine-spec-reporter-4.2.1.tgz"
-  integrity sha1-HWMq7ANBZwrTJPkrqEtLMrNeniI=
+jasmine-spec-reporter@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/jasmine-spec-reporter/-/jasmine-spec-reporter-7.0.0.tgz"
+  integrity sha512-OtC7JRasiTcjsaCBPtMO0Tl8glCejM4J4/dNuOJdA8lBjz4PmWjYQ6pzb0uzpBNAWJMDudYuj9OdXJWqM2QTJg==
   dependencies:
-    colors "1.1.2"
+    colors "1.4.0"
 
 jasmine@2.8.0:
   version "2.8.0"
@@ -4896,6 +4893,7 @@ node-sass@4.10.0:
 nopt@^4.0.1:
   version "4.0.1"
   resolved "http://registry.npm.taobao.org/nopt/download/nopt-4.0.1.tgz"
+  integrity sha1-0NRoWv1UFRk8jHUFYC0NF81kR00=
   dependencies:
     abbrev "1"
     osenv "^0.1.4"
@@ -6138,6 +6136,7 @@ sax@0.5.x:
 sax@>=0.6.0, sax@^1.2.4:
   version "1.2.4"
   resolved "http://registry.npm.taobao.org/sax/download/sax-1.2.4.tgz"
+  integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 schema-utils@^0.3.0:
   version "0.3.0"
@@ -6815,6 +6814,7 @@ strip-indent@^1.0.1:
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.taobao.org/strip-json-comments/download/strip-json-comments-2.0.1.tgz"
+  integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
 style-loader@0.23.1:
   version "0.23.1"
@@ -7629,6 +7629,7 @@ yallist@^2.1.2:
 yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.2"
   resolved "http://registry.npm.taobao.org/yallist/download/yallist-3.0.2.tgz"
+  integrity sha1-hFK0u36Dx8GI2AQcGoN8dz1ti7k=
 
 yallist@^3.0.3:
   version "3.1.1"
