@@ -909,7 +909,7 @@ aws4@^1.8.0:
   resolved "http://registry.npm.taobao.org/aws4/download/aws4-1.8.0.tgz"
   integrity sha1-8OAD2cqef1nHpQiUXXsu+aBKVC8=
 
-babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
+babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "http://registry.npm.taobao.org/babel-code-frame/download/babel-code-frame-6.26.0.tgz"
   integrity sha1-Y/1D99weO7fONZR9uP42mj9Yx0s=
@@ -2143,6 +2143,7 @@ detect-indent@^4.0.0:
 detect-libc@^1.0.2:
   version "1.0.3"
   resolved "http://registry.npm.taobao.org/detect-libc/download/detect-libc-1.0.3.tgz"
+  integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
 detect-node@^2.0.3:
   version "2.0.4"
@@ -2154,10 +2155,15 @@ di@^0.0.1:
   resolved "http://registry.npm.taobao.org/di/download/di-0.0.1.tgz"
   integrity sha1-gGZJMmzqp8qjMG112YXqJ0i6kTw=
 
-diff@^3.1.0, diff@^3.2.0:
+diff@^3.1.0:
   version "3.5.0"
   resolved "http://registry.npm.taobao.org/diff/download/diff-3.5.0.tgz"
   integrity sha1-gAwN0eCov7yVg1wgKtIg/jF+WhI=
+
+diff@^4.0.1:
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/diff/-/diff-4.0.2.tgz"
+  integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
 diffie-hellman@^5.0.0:
   version "5.0.3"
@@ -3444,6 +3450,7 @@ inherits@^2.0.4:
 ini@1.3.5, ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "http://registry.npm.taobao.org/ini/download/ini-1.3.5.tgz"
+  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
 inquirer@6.2.0:
   version "6.2.0"
@@ -3961,10 +3968,10 @@ js-tokens@^4.0.0:
   resolved "http://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz"
   integrity sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
 
-js-yaml@3.x, js-yaml@^3.12.0, js-yaml@^3.7.0, js-yaml@^3.9.0:
-  version "3.12.0"
-  resolved "http://registry.npm.taobao.org/js-yaml/download/js-yaml-3.12.0.tgz"
-  integrity sha1-6u1lbsg0TxD1J8a/obbiJE3hZ9E=
+js-yaml@3.x, js-yaml@^3.12.0, js-yaml@^3.13.1, js-yaml@^3.9.0:
+  version "3.14.1"
+  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz"
+  integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -4896,6 +4903,7 @@ node-sass@4.10.0:
 nopt@^4.0.1:
   version "4.0.1"
   resolved "http://registry.npm.taobao.org/nopt/download/nopt-4.0.1.tgz"
+  integrity sha1-0NRoWv1UFRk8jHUFYC0NF81kR00=
   dependencies:
     abbrev "1"
     osenv "^0.1.4"
@@ -6138,6 +6146,7 @@ sax@0.5.x:
 sax@>=0.6.0, sax@^1.2.4:
   version "1.2.4"
   resolved "http://registry.npm.taobao.org/sax/download/sax-1.2.4.tgz"
+  integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 schema-utils@^0.3.0:
   version "0.3.0"
@@ -6815,6 +6824,7 @@ strip-indent@^1.0.1:
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.taobao.org/strip-json-comments/download/strip-json-comments-2.0.1.tgz"
+  integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
 style-loader@0.23.1:
   version "0.23.1"
@@ -7084,25 +7094,26 @@ tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "http://registry.npm.taobao.org/tslib/download/tslib-1.9.3.tgz"
   integrity sha1-1+TdeSRdhUKMTX5IIqeZF5VMooY=
 
-tslint@~5.11.0:
-  version "5.11.0"
-  resolved "http://registry.npm.taobao.org/tslint/download/tslint-5.11.0.tgz"
-  integrity sha1-mPMMAurjzecAYgHkwzywi0hYHu0=
+tslint@5.20.1:
+  version "5.20.1"
+  resolved "https://registry.npmjs.org/tslint/-/tslint-5.20.1.tgz"
+  integrity sha512-EcMxhzCFt8k+/UP5r8waCf/lzmeSyVlqxqMEDQE7rWYiQky8KpIBz1JAoYXfROHrPZ1XXd43q8yQnULOLiBRQg==
   dependencies:
-    babel-code-frame "^6.22.0"
+    "@babel/code-frame" "^7.0.0"
     builtin-modules "^1.1.1"
     chalk "^2.3.0"
     commander "^2.12.1"
-    diff "^3.2.0"
+    diff "^4.0.1"
     glob "^7.1.1"
-    js-yaml "^3.7.0"
+    js-yaml "^3.13.1"
     minimatch "^3.0.4"
+    mkdirp "^0.5.1"
     resolve "^1.3.2"
     semver "^5.3.0"
     tslib "^1.8.0"
-    tsutils "^2.27.2"
+    tsutils "^2.29.0"
 
-tsutils@^2.27.2:
+tsutils@^2.29.0:
   version "2.29.0"
   resolved "http://registry.npm.taobao.org/tsutils/download/tsutils-2.29.0.tgz"
   integrity sha1-MrSIUBRnrL7dS4VJhnOggSrKC5k=
@@ -7629,6 +7640,7 @@ yallist@^2.1.2:
 yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.2"
   resolved "http://registry.npm.taobao.org/yallist/download/yallist-3.0.2.tgz"
+  integrity sha1-hFK0u36Dx8GI2AQcGoN8dz1ti7k=
 
 yallist@^3.0.3:
   version "3.1.1"
